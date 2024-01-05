@@ -1,0 +1,90 @@
+.TESTI {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testi_header {}
+
+.testi_list {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testibut {
+  height: 50px;
+}
+
+.testicard {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  border: 2pt solid blueviolet;
+  border-radius: 20px;
+  width: 400px;
+  /* Set the width of the card */
+  /* Add other styles for positioning, padding, margins, etc. */
+}
+
+.testicard img {
+  max-width: 100%;
+  /* Ensure the image doesn't overflow the card */
+}
+
+.quote {
+  font-weight:normal;
+  font-style: italic;
+  color: gray;
+}
+.test_name{
+  color: gray;
+  margin-top: 2vh;
+  font-size: larger;
+  font-weight:bold;
+}
+.test_pos{
+  color: gray;
+  font-size: medium;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1023px) {
+  
+}
+
+@media (max-width: 767px) {
+.TESTI{
+  margin-top: 8vh;
+}
+.testi_list{
+  width: 100%;
+}
+
+.testibut {
+  height: 50px; /* Adjust as needed */
+  width: 50px; /* Adjust as needed */
+  cursor: pointer;
+  /* Other styles for the buttons */
+}
+
+
+.testi_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw; /* Set the width of the container */
+  margin: auto; /* Center the container */
+}
+
+.testicard {
+  width: 90vw; /* Set the width of the testicard */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  position: relative; /* Enable positioning */
+}
+}

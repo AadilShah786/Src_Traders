@@ -1,0 +1,84 @@
+.PRICING {
+    margin-top: 15vh;
+    width: auto;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pricing {
+    font-weight: bolder;
+}
+
+.price_list {
+    width: 80vw;
+    /* background-color: aqua; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+/* .item {
+    color: rgb(255, 183, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+    width: 35%;
+    padding-bottom: 3vh;
+    padding-left: 2%;
+    padding-right: 2%; */
+    /* background-color: blueviolet; */
+    /* border-radius: 30px;
+}
+
+.Pricing_title {
+    color: rgb(255, 183, 0);
+  font-size: 300%;
+}
+
+.Pricing_price {
+    color: rgb(255, 183, 0);
+ font-size: 200%;
+}
+
+.Pricing_detail {
+    font-size: 100%;
+    color: rgb(255, 183, 0);
+
+}
+
+.Pricing_value {
+    
+} */
+
+
+.popup {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.buy {
+    color: blueviolet;
+    font-size: 110%;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.948);
+}
+
+.item .buy:focus {
+    outline: 2px solid #818181d3;
+    box-shadow: none;
+}
+
+@media (max-width: 767px) {
+    .PRICING{
+        margin-top: 5vh;
+    }
+    .item {
+        width: 90%;
+    }
+}

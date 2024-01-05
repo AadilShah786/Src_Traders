@@ -1,0 +1,99 @@
+/* Footer.css */
+
+/* Footer container */
+.footer {
+    background-color: #1e002e; /* Black background color */
+    background-image: url('../assets/2.png'); /* Add your background image */
+    color: #fff; /* Text color */
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Flex container for columns */
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  /* Column styles */
+  .contact,
+  .social-media,
+  .dev-contact {
+    flex: 1 1 300px;
+    margin: 0 20px;
+  }
+  
+  /* Headings in columns */
+  .contact h2,
+  .social-media h2,
+  .dev-contact h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em; /* Larger font size for headings */
+  }
+  
+  /* Form and input styles */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px; /* Increased padding for better input appearance */
+    border-radius: 5px;
+    border: 1px solid #fff; /* White border */
+    background-color: transparent; /* Transparent input background */
+    color: #fff; /* Text color */
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  /* Button style */
+  .contact-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #444;
+  }
+  
+  /* Social links and developer contact links */
+  .social-links,
+  .dev-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li,
+  .dev-links li {
+    margin-bottom: 10px;
+  }
+  
+  .social-links a,
+  .dev-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover,
+  .dev-links a:hover {
+    color: #aaa;
+  }
+  
+  /* Footer bottom section */
+  .footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #555;
+    padding-top: 20px; /* Increased top padding */
+    font-size: 0.9em; /* Smaller font size for copyright text */
+  }
+  
